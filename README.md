@@ -1,5 +1,9 @@
 # DeepLearning
-Toy Models for different kind of Neural Networks: CNN, RNN.
+Toy Models for different kind of Neural Networks
+
+CNN: 3 layer network, MNIST data
+
+RNN: 8 layer network, 8 bit binary digits
 ## CNN
 This is a simple 3 layer Convolutional Neural Network trained with MNIST data. The model is implemented in Matlab without any library dependencies. However if you wish to check for the correctness of the model, you can also run an identical Python (Tensorflow) implementation. Both models are fixed by the same number generator. The purpose of this toy model is that you will be able to see all variables and calculations at a glance in the MATLAB workspace. By intent there is only limited modularisation of functions. So you should be able to see easily what is going on in the training loop and test loop. Forward pass and backward pass are all programmed into one file.
 
