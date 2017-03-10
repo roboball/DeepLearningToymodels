@@ -4,9 +4,11 @@ Toy Models for different kind of Neural Networks
   * RNN: 8 layer network, 8 bit binary digits
   
 ## CNN
-This is a simple 3 layer Convolutional Neural Network trained on MNIST data.The purpose of this toy model is that you will be able to see all variables and calculations at a glance in the MATLAB workspace. However, if you wish to check for the correctness of the model, you can also run an identical Python-Tensorflow implementation. By intent there is only limited modularisation of functions. So you should be able to see easily what is going on in the training loop and test loop. Forward pass and backward pass are all programmed into one ```CNNtoymodel.m``` m-file.
+This is a simple 3 layer Convolutional Neural Network trained on MNIST data.The purpose of this toy model is that you will be able to see all variables and calculations at a glance in the MATLAB workspace. However, if you wish to check for the correctness of the model, you can also run an identical Python-Tensorflow implementation. 
 
-The limitation of this model is that is uses only 2 dimensional filterbanks. There is no variety of optimizers like Adam, L2-Weight decay or other CNN advanced tricks like Dropout. However for learning purposes feel free to improve the network structure.
+By intent there is only limited modularisation of functions. So you should be able to see easily what is going on in the training loop and test loop. Forward pass and backward pass are all programmed into one ```CNNtoymodel.m``` m-file.
+
+Limitations of this model are that it uses only 2 dimensional filterbanks. There is no variety of optimizers like Adam, L2-Weight decay or other advanced CNN tricks like Dropout. However for learning purposes feel free to improve the network structure.
 ### Run and Usage
 Just download the CNN folder and run ```CNNtoymodel.m``` in Matlab.  (no libraries needed)
 Alternatively run the ```CNNtoymodel.py``` in Python.  
