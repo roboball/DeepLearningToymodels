@@ -1,6 +1,6 @@
 # Deep Learning Toy Models
 Toy Models for different kind of Neural Networks  
-Language: Matlab and Python
+Language: **Matlab** and **Python**
   * CNN: 3 layer network, MNIST data  
   * RNN: 8 layer network, 8 bit binary digits
   
