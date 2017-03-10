@@ -12,5 +12,5 @@ I just added them as a starting point to improve the model (without actually tes
 3.```maxpoolup.m``` is the reverse max pooling operation (upsampling)  
 4.```reluup.m``` is the reverse relu operation
 
-###classification
+###Classification
 5.```softmax.m``` calculates the Softmax Probabilities, the Cross Entropy Loss, and the Output Delta
