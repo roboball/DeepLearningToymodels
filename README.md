@@ -1,5 +1,5 @@
 # DeepLearning Toy Models
-Toy Models for different kind of Neural Networks  (ideal for learning and teaching neural networks)
+Toy Models for different kind of Neural Networks  (ideal for learning and teaching)
   * CNN: 3 layer network, MNIST data  
   * RNN: 8 layer network, 8 bit binary digits
   
