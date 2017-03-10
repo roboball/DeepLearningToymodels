@@ -6,11 +6,11 @@
 I just added them as a starting point to improve the model (without actually testing them).  
 
 ### Forward Pass
-```maxpool.m```  is max pooling (downsampling)  
-```relu.m``` is the activation function 
+1.```maxpool.m```  is max pooling (downsampling)  
+2.```relu.m``` is the activation function 
 ### Backward Pass
-```maxpoolup.m``` is the reverse max pooling operation (upsampling)  
-```reluup.m``` is the reverse relu operation
+3.```maxpoolup.m``` is the reverse max pooling operation (upsampling)  
+4.```reluup.m``` is the reverse relu operation
 
 ###classification
-```softmax.m``` calculates the Softmax Probabilities, the Cross Entropy Loss, and the Output Delta
+5.```softmax.m``` calculates the Softmax Probabilities, the Cross Entropy Loss, and the Output Delta
