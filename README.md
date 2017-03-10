@@ -1,4 +1,4 @@
-# DeepLearning Toy Models
+# Deep Learning Toy Models
 Toy Models for different kind of Neural Networks 
   * CNN: 3 layer network, MNIST data  
   * RNN: 8 layer network, 8 bit binary digits
