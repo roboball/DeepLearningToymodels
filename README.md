@@ -10,7 +10,7 @@ By intent there is only limited modularisation of functions. So you should be ab
 
 Limitations of this model are that it uses only 2 dimensional filterbanks. There is no variety of optimizers like Adam, L2-Weight decay or other advanced CNN tricks like Dropout. However for learning purposes feel free to improve the network structure.
 ### Run and Usage
-Just download the CNN folder and run ```CNNtoymodel.m``` in Matlab.  (no libraries needed)
+Just download the CNN folder and run ```CNNtoymodel.m``` in Matlab.  (no libraries are needed)  
 Alternatively run the ```CNNtoymodel.py``` in Python.  
 
 For python you need to install the following dependencies:  
