@@ -40,8 +40,6 @@ numclass = 10; %number of classes
 batches_train = trainsamples / batsize_train; 
 batches_test = testsamples / batsize_test; 
 
-%dummy vector: gradient for nnloss
-gradloss = ones(1,1,10,1, 'double'); 
 %init loss history
 totalloss =[];
 %init accuracy history
