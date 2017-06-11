@@ -157,7 +157,7 @@ y_conv = tf.matmul(h_flat, W_fc1) + b_fc1
 #4.Layer: cross_entropy ------------------------------------------------
 softmax = tf.nn.softmax(y_conv)
 #Cost function
-cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(y_conv, y_))
+cross_entropy = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(logits=y_conv, labels=y_))
 
 ########################################################################
 #backward pass:
