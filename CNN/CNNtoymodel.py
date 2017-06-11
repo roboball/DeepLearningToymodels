@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+'''
 #=======================================================================
 #Purpose: Classification of Digits with a CNN
 #
@@ -12,6 +16,7 @@
 #Version: 10/2016 Roboball (MattK.)
 #Link:    https://github.com/roboball/DeepLearningToymodels
 #=======================================================================
+'''
 
 import numpy as np
 import tensorflow as tf
@@ -20,7 +25,8 @@ import os, re
 import datetime 
 import matplotlib.pyplot as plt 
 import scipy.io
-#plt.close('all') 
+# remove warnings from tf
+os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
 
 ########################################################################
 #import data from mat-file: MNIST
