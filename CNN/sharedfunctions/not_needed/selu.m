@@ -1,5 +1,5 @@
 function [ out ] = selu( x )
-% selu activation function
+         % selu activation function
          
          % init globals selu activation function
          ALPHA = 1.6732632423543772848170429916717;
